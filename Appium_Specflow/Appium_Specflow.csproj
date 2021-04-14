@@ -9,7 +9,6 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="NUnit" Version="3.13.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
-    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.4.211" />
 
     
     <PackageReference Include="SpecRun.SpecFlow" Version="3.4.19" />
@@ -24,10 +23,6 @@
     
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
     
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Hooks\" />
   </ItemGroup>
 
 </Project>

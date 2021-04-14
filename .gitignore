@@ -5,3 +5,13 @@
 /Appium_Specflow/.vs/Appium_Specflow/v16/Server/sqlite3/db.lock
 /Appium_Specflow/bin/Debug/netcoreapp3.1
 /Appium_Specflow/obj
+/Appium_Specflow/.vs/Appium_Specflow/v16/
+Appium_Specflow/.vs/Appium_Specflow/v16/.suo
+Appium_Specflow/.vs/Appium_Specflow/v16/Server/sqlite3/storage.ide-shm
+Appium_Specflow/.vs/Appium_Specflow/DesignTimeBuild/.dtbcache
+.gitignore
+Appium_Specflow/TestResults/*
+Appium_Specflow/.vs/Appium_Specflow/v16/Server/sqlite3/storage.ide-wal
+.gitignore
+.gitignore
+Appium_Specflow/.vs/Appium_Specflow/v16/.suo
