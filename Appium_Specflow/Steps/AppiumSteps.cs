@@ -1,4 +1,7 @@
-﻿using TechTalk.SpecFlow;
+﻿using OpenQA.Selenium.Appium;
+using OpenQA.Selenium.Appium.Android;
+using TechTalk.SpecFlow;
+using TechTalk.SpecFlow.Assist;
 
 namespace Appium_Specflow.Steps
 {
@@ -16,6 +19,11 @@ namespace Appium_Specflow.Steps
         [Given(@"I enter email and password")]
         public void EnterEmailAndPassword(Table table)
         {
+            dynamic data = table.CreateDynamicInstance();
+
+            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>()
+                .FindElementByAccessibilityId("email")
+                .SendKeys("myemail@test.co.uk");
         }
 
         [Given(@"I select the currency drop down")]

@@ -20,7 +20,9 @@ namespace Appium_Specflow.Hooks
         public void Init()
         {
             AppiumDriver driver = new AppiumDriver();
-            driver.InitAppium();
+            //driver.InitAppium();
+
+            _scenarioContext.Set(driver.InitAppium());
         }
     }
 }
