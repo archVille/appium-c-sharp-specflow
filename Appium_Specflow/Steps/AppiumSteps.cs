@@ -23,7 +23,11 @@ namespace Appium_Specflow.Steps
 
             _scenarioContext.Get<AndroidDriver<AppiumWebElement>>()
                 .FindElementByAccessibilityId("email")
-                .SendKeys("myemail@test.co.uk");
+                .SendKeys((string)data.email);
+
+            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>()
+                .FindElementByAccessibilityId("password")
+                .SendKeys((string)data.password);
         }
 
         [Given(@"I select the currency drop down")]

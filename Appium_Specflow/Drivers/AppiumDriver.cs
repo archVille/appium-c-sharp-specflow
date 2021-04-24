@@ -21,7 +21,8 @@ namespace Appium_Specflow.Drivers
 
             var appiumService = new AppiumServiceBuilder()
                 .WithIPAddress("127.0.0.1")
-                .UsingPort(4723)
+                //.UsingPort(4723)
+                .UsingAnyFreePort()
                 .Build();
 
             appiumService.Start();
